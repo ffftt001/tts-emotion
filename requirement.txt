@@ -1,1 +1,7 @@
-
+flask
+azure.cognitiveservices.speech
+base64
+flask_cors
+google.cloud
+os
+re
