@@ -22,7 +22,7 @@ def analyze_emotion(text):
     return interpret_emotion(sentiment.score, sentiment.magnitude)
 
 def interpret_emotion(score, magnitude):
-    if score > 0.25:
+    if score > 0.5:
         return 'cheerful' if magnitude > 0.5 else 'neutral'
     elif score < -0.25:
         return 'angry' if magnitude > 0.5 else 'sad'
