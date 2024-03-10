@@ -11,10 +11,10 @@ Refer to requirement.txt for the full list of prerequisites needed to run the pr
 
 ### This project is mainly built With
 
-- Flask
-- Azure Cognitive Services Speech SDK
-- Flask-CORS
-- Google Cloud Language API
+- Flask[https://github.com/pallets/flask]
+- Azure Cognitive Services Speech SDK[https://github.com/Azure-Samples/cognitive-services-speech-sdk]
+- Flask-CORS[https://github.com/corydolphin/flask-cors]
+- Google Cloud Language API[https://cloud.google.com/natural-language/docs/basics]
 
 
 ### FILE FORMAT
@@ -51,7 +51,7 @@ cd tts-emotion
     ```
     start frontend.html
     ```
-  - if mac/linux:
+  - if using mac/linux:
     ```
     open frontend.html
     ```
