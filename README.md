@@ -54,7 +54,7 @@ if window:
 >$start frontend.html
 
 if mac/linux:
-.$open frontend.html
+>$open frontend.html
 
 
 
