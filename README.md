@@ -17,8 +17,7 @@ A common problem with AI voiceovers involves its lack of realism, especially in 
 
 The file consists of frontend.html, which is the user interface for the TTS model. By inputting text, an AI generated speech is output, incorporating human emotion into its speech. googlecloud.py is the backend coding that supports the process of adding emotion to speech.
 
-### 
-Get Google cloud service and Azure Cognitive Services key, and the .json file
+### Get Google cloud service and Azure Cognitive Services key, and the .json file
 
 ### SETUP
 
