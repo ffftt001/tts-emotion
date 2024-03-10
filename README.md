@@ -35,7 +35,7 @@ cd tts-emotion
 pip install -r requirement.txt
 ```
 
-4. Set GOOGLE_APPLICATION_CREDENTIALS to the path of your Google Cloud service account key file.
+4. Set *'GOOGLE_APPLICATION_CREDENTIALS'* to the path of your Google Cloud service account key file.
 Set Azure Cognitive Services keys and region in your application.
 
 6. Run the Flask Application.
