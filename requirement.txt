@@ -1,7 +1,4 @@
-flask
-azure.cognitiveservices.speech
-base64
-flask_cors
-google.cloud
-os
-re
+Flask==3.0.2
+azure-cognitiveservices-speech==1.36.0
+Flask-Cors==4.0.0
+google-cloud==0.34.0
