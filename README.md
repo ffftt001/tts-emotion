@@ -9,6 +9,13 @@ A common problem with AI voiceovers involves its lack of realism, especially in 
 
 Refer to requirement.txt for the full list of prerequisites needed to run the project.
 
+### This project is mainly built With
+
+- Flask
+- Azure Cognitive Services Speech SDK
+- Flask-CORS
+- Google Cloud Language API
+
 
 ### FILE FORMAT
 
@@ -18,15 +25,20 @@ The file consists of frontend.html, which is the user interface for the TTS mode
 ### SETUP
 
 1. Make sure Python 3.6+ is installed.
-2. Set up a Virtual Environment.
-  >$python -m venv tts-env
+2. clone this respository and change the directory.
+```
+git clone https://github.com/ffftt001/tts-emotion.git
+cd tts-emotion
+```
+3. Install all the library required.
+```
+pip install -r requirement.txt
+```
 
-  >source tts-env/bin/activate
-3. Install Flask and other dependencies.
-  >pip install Flask azure-cognitiveservices-speech google-cloud-languages
 4. Set GOOGLE_APPLICATION_CREDENTIALS to the path of your Google Cloud service account key file.
 Set Azure Cognitive Services keys and region in your application.
-5. Run the Flask Application.
+
+6. Run the Flask Application.
   >flask run
 
 
