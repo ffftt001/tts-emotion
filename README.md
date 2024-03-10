@@ -20,40 +20,40 @@ The file consists of frontend.html, which is the user interface for the TTS mode
 ### Get related API and service
 - Obtaining Azure Speech Service API Key and Service Region
   1. Sign in to Azure Portal
-    - Visit the Azure Portal and sign in using your Azure account credentials.
+      - Visit the Azure Portal and sign in using your Azure account credentials.
 
   2. Create Speech Service Resource
-    - Navigate to the Azure portal dashboard and click on the "+" button to create a new resource.
+      - Navigate to the Azure portal dashboard and click on the "+" button to create a new resource.
 
   3. Search for Speech Service
-    - In the search bar, type "Speech" and select Speech from the results.
+      - In the search bar, type "Speech" and select Speech from the results.
 
   4. Configure Speech Service
-    - Choose a subscription.
-    - Create a new resource group or select an existing one.
-    - Enter a name for the Speech service.
-    - Choose the region closest to your location for better performance.
-    - Select the pricing tier according to your requirements.
+      - Choose a subscription.
+      - Create a new resource group or select an existing one.
+      - Enter a name for the Speech service.
+      - Choose the region closest to your location for better performance.
+      - Select the pricing tier according to your requirements.
   5. Obtain API Key and Service Region
-    - Once the Speech service is created, navigate to the Keys and Endpoint section of the newly created Speech service resource. Here, you will find the API key and the service region.
+      - Once the Speech service is created, navigate to the Keys and Endpoint section of the newly created Speech service resource. Here, you will find the API key and the service region.
 
 - Obtaining Google Cloud Natural Language API Credentials
   1. Sign in to Google Cloud Console
-    - Visit the Google Cloud Console and sign in using your Google account credentials.
+      - Visit the Google Cloud Console and sign in using your Google account credentials.
 
   2. Create or Select a Project
-    - Create a new project or select an existing one where you want to use the Natural Language API.
+      - Create a new project or select an existing one where you want to use the Natural Language API.
 
   3. Enable the Natural Language API
-    - Navigate to the APIs & Services > Library section in the left sidebar. Search for "Natural Language API" and enable it for your project.
+      - Navigate to the APIs & Services > Library section in the left sidebar. Search for "Natural Language API" and enable it for your project.
 
   4. Create Service Account and Generate JSON Key
-    - Navigate to the APIs & Services > Credentials section.
-    - Click on Create credentials and select Service account key.
-    - Choose or create a service account, select the role (e.g., Project > Owner) and key type (JSON).
-    - Click Create to generate and download the JSON key file.
+      - Navigate to the APIs & Services > Credentials section.
+      - Click on Create credentials and select Service account key.
+      - Choose or create a service account, select the role (e.g., Project > Owner) and key type (JSON).
+      - Click Create to generate and download the JSON key file.
   5. Store the JSON Key Securely
-    - Store the downloaded JSON key file securely in your project directory. Avoid committing it to version control systems for security reasons.
+      - Store the downloaded JSON key file securely in your project directory. Avoid committing it to version control systems for security reasons.
 
 ### SETUP
 
