@@ -14,7 +14,7 @@ Refer to requirement.txt for the full list of prerequisites needed to run the pr
 - [Flask](https://github.com/pallets/flask)
 - [Azure Cognitive Services Speech SDK](https://github.com/Azure-Samples/cognitive-services-speech-sdk)
 - [Flask-CORS](https://github.com/corydolphin/flask-cors)
-- [Google Cloud Language AP](https://cloud.google.com/natural-language/docs/basics)
+- [Google Cloud Language API](https://cloud.google.com/natural-language/docs/basics)
 
 
 ### FILE FORMAT
