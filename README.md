@@ -5,10 +5,6 @@
 A common problem with AI voiceovers involves its lack of realism, especially in the aspects of emotion and tone. This project attempts to improve the functionality of text-to-speech (TTS) of AI voices through finetuning existing TTS models to better incorporate human emotion, creating a more realistic and immersive AI audio experience. 
 
 
-### PREREQUISITES
-
-Refer to requirement.txt for the full list of prerequisites needed to run the project.
-
 ### This project is mainly built With
 
 - [Flask](https://github.com/pallets/flask)
