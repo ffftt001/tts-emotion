@@ -93,48 +93,65 @@
 
     <script>
         $(document).ready(function () {
+            function filterVoices() {
+                var selectedLanguage = $('#languageSelect').val();
+                $('#voiceSelect').find('option').each(function () {
+                    var optionValue = $(this).val();
+                    if (optionValue.startsWith('en-') && selectedLanguage === 'en-US') {
+                        $(this).show();
+                    } else if (optionValue.startsWith('zh-') && selectedLanguage === 'zh-CN') {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+                
+                $('#voiceSelect option').filter(':visible:first').prop('selected', true);
+            }
+            
+            $('#languageSelect').change(filterVoices);
+
+            filterVoices();  
+
             $("#ttsForm").submit(function (event) {
-                event.preventDefault(); // Prevent the default form submission
+                event.preventDefault(); 
                 var formData = {
                     text: $("#textInput").val(),
                     language: $("#languageSelect").val(),
-                    voiceName: $("#voiceSelect").val(),
-                    style: $("#styleSelect").val() // Include the selected style
+                    voiceName: $("#voiceSelect").val()
                 };
 
-
                 $.ajax({
-                type: "POST",
-                url: "http://127.0.0.1:5000/synthesize",
-                data: JSON.stringify(formData),
-                contentType: "application/json",
-                success: function (response) {
-                    playAudioSegmentsSequentially(response.audioSegments);
-                },
-                error: function (xhr, status, error) {
-                    console.error("Error: " + error);
-                }
+                    type: "POST",
+                    url: "http://127.0.0.1:5000/synthesize",
+                    data: JSON.stringify(formData),
+                    contentType: "application/json",
+                    success: function (response) {
+                        playAudioSegmentsSequentially(response.audioSegments);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Error: " + error);
+                    }
+                });
             });
         });
-    });
 
-    function playAudioSegmentsSequentially(audioSegments) {
-    if (!audioSegments || audioSegments.length === 0) {
-        console.error("No audio segments to play.");
-        return;
-    }
-    let index = 0;
+        function playAudioSegmentsSequentially(audioSegments) {
+            if (!audioSegments || audioSegments.length === 0) {
+                console.error("No audio segments to play.");
+                return;
+            }
+            let index = 0;
 
-    function playNextSegment() {
-        if (index < audioSegments.length) {
-            var audioElement = new Audio(`data:audio/wav;base64,${audioSegments[index++]}`);
-            audioElement.onended = playNextSegment;
-            audioElement.play();
+            function playNextSegment() {
+                if (index < audioSegments.length) {
+                    var audioElement = new Audio(`data:audio/wav;base64,${audioSegments[index++]}`);
+                    audioElement.onended = playNextSegment;
+                    audioElement.play();
+                }
+            }
+
+            playNextSegment();
         }
-    }
-
-    playNextSegment();
-}
-
 </script>
 
