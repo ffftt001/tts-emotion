@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Google Cloud Natural Language API Setup
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\USER\Downloads\skilful-album-416720-e8ae8921e605.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"/Users/franklintiong/Downloads/skilful-album-416720-e8ae8921e605.json" #change to your google key
 google_client = language_v1.LanguageServiceClient()
 
 @app.route('/')
