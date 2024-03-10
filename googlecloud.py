@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Google Cloud Natural Language API Setup
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"skilful-album-416720-e8ae8921e605.json" #change to your google key
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"skilful-album-416720-e8ae8921e605.json" #change to your file path
 google_client = language_v1.LanguageServiceClient()
 
 @app.route('/')
@@ -73,8 +73,8 @@ def text_to_speech(subscription_key, service_region, text, language, voice_name,
 @app.route('/synthesize', methods=['POST'])
 def synthesize():
     data = request.json
-    tts_subscription_key = 'bc125dcc9afa408bb5f28f5f4882ca16'
-    service_region = 'eastus'
+    tts_subscription_key = 'bc125dcc9afa408bb5f28f5f4882ca16'  #change to your key
+    service_region = 'eastus'  #change to your region
     language = data['language']
     voice_name = data['voiceName']
     
