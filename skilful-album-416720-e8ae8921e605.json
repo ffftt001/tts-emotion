@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "skilful-album-416720",
+  "private_key_id": "e8ae8921e605d084ffb216b212cd16bdc061f2aa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQNYohM+hO5CRy\nRwLt5YYM8lHWn8uQ43jz8dSldeMKoiyEWoShHtEy8lcrwc4RyPkqsi2tJL5yFqPK\nEEZ9Pe5xbrUZk9Hx5aMuTMhsPsiS/8I3hTDj6Muwq6MlWNWL0zpL5qOXZBh3uq73\nDQKQZPCAOPavfa9eIf5gOJh0NnsV+OY/8QvuO7RoiGAvSSlkpEHeyttiAQlkLzqD\ncmU5OhxtEANGQQzr8oGOUtbLGm3q+t9Zyrwtik3lDFYkqojZLypCtHcMJMJye5T3\nzNDsR1vyzSEk12nEeJytj1hexYTK+YcxS6Zmnps4Fh+F+WkZcghuturhy9w9W41Z\nb2hlR2SxAgMBAAECggEABelT8Ll+f+FlRxP3IEZk4Nn8Fda2EwnoFuPmaiPzeyeb\nuI83WZ14SOTbQu1uY5c/84qbSbo0XlvkOe/B2/dyc07s+I/xLr/RmR/HpXxLX49B\naGI611TfKK5YgTrrghBWFu9s7FNLl3jdHD55yO6CV1c+cYIu8qZlFY+sXDMxh3x9\nO/tJJocTlQG2QU3gqp944+ll2CnaSnASRx+qiHF200TsIQlbOmUYxV74dgNfoms/\nXCSsjDWDINs4yrjRnaKuQ0riNFcQzwr58y76IGpTffUPFvRniup8KOgROuh6eIKh\npNRo9nAD2OaRd+d6mW6fPh/ljDduopzUs1Hg+pPSkwKBgQDH22H/7JDP3rTUSol6\nWYtS+aMko0qwo3MuMPbgOU71FdcID3f2WIEMacJVLg1Q1IH48QtbEK9qvmQgbkIj\nq2sZr8I0dYv0Wyzm2pt+QUaZdY1QnoqlfbxqIko0iBma0xE6vPzI5Db6ruz/MG+X\nxFu5TTb9ICJ5nL87pP/niKY3CwKBgQC4uEUu/waBPKj5VYNqMgK6o5E5eo9ssE9Z\nD4u0QPSDp9zwi5ibe7t7rGEROA7o+7ToLrZCxgn6CI8uhf1BcutJavUqsk0Ix7ZD\nLpccshtOor3VMUz1IVSoADft27/vyECGD8VI0mdozGWNrvlnSBs/YmE6gLj6wXET\nIboit924swKBgCvwBzOEhrGsfITPfjnvxbmQOFWtsJX02TWmfh/9eWZYTtXu0KjP\n/E8GUTr4zOSgU5KvK5fxqx8EjG60zsWYwgr7oO53iTVHdi+qj9TJ9QN33IGE2WZY\npjuPHlE+OqLXFEqdkdV4lr22B1RzCZWMDb5HQ3eSwQGLfF9Yfwof+KrRAoGANTYn\n/9zJQ+t0hbbjj3DuplM+H3+110qG4RIAXaGkjlSJ6eVcxdWD8aF7qNksOmNf/s6O\nBHhGIXfbvzwr83GmY9Ti4TTRyii10W6Xa1XHVgS9iK+WCrtaRrchZWy7Qti99aCP\nZWXvEhpnWsQ/5ke4Sa8OcSrpnpqg9zDtDNlIjs8CgYAhigHEJYTby72rujTZUc+s\nuGaIcWkUNWnSCHfQcj5kTtt3uHl5ZNWzCEG8qmdNBS9Sxj4z+5Vfu9I1ZLcgoh9w\nIvu8TpRhdicXZW2i1IFjgknVT7DHOo9yqUbuBDrFdW71b9gGkR/ce7xyXT7WJXiO\nc9V3VAr32hBKACfx601zGg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sentimentanalysis@skilful-album-416720.iam.gserviceaccount.com",
+  "client_id": "108975338905328718404",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sentimentanalysis%40skilful-album-416720.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
