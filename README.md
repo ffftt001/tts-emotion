@@ -29,11 +29,11 @@ The file consists of frontend.html, which is the user interface for the TTS mode
   In the search bar, type "Speech" and select Speech from the results.
 
   4. Configure Speech Service
-  Choose a subscription.
-  Create a new resource group or select an existing one.
-  Enter a name for the Speech service.
-  Choose the region closest to your location for better performance.
-  Select the pricing tier according to your requirements.
+  - Choose a subscription.
+  - Create a new resource group or select an existing one.
+  - Enter a name for the Speech service.
+  - Choose the region closest to your location for better performance.
+  - Select the pricing tier according to your requirements.
   5. Obtain API Key and Service Region
   Once the Speech service is created, navigate to the Keys and Endpoint section of the newly created Speech service resource. Here, you will find the API key and the service region.
 
@@ -48,10 +48,10 @@ The file consists of frontend.html, which is the user interface for the TTS mode
   Navigate to the APIs & Services > Library section in the left sidebar. Search for "Natural Language API" and enable it for your project.
 
   4. Create Service Account and Generate JSON Key
-  Navigate to the APIs & Services > Credentials section.
-  Click on Create credentials and select Service account key.
-  Choose or create a service account, select the role (e.g., Project > Owner) and key type (JSON).
-  Click Create to generate and download the JSON key file.
+  - Navigate to the APIs & Services > Credentials section.
+  - Click on Create credentials and select Service account key.
+  - Choose or create a service account, select the role (e.g., Project > Owner) and key type (JSON).
+  - Click Create to generate and download the JSON key file.
   5. Store the JSON Key Securely
   Store the downloaded JSON key file securely in your project directory. Avoid committing it to version control systems for security reasons.
 
